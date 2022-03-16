@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        DOMAIN='apps.ocp4.example.com'
+        DOMAIN='api.lab.ocp.lan'
         PRJ="hello-${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
         APP='nodeapp'
     }
